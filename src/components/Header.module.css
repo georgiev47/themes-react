@@ -1,0 +1,151 @@
+.headerrow1,
+.headerrow2 {
+  display: flex;
+  justify-content: space-between;
+  height: 4rem;
+  font-size: 0.8rem;
+}
+
+.headerrow2 {
+  background-color: #f4f7f9;
+}
+
+.headerrow2 > div {
+  display: flex;
+}
+
+/* Header Row 1 */
+
+.logo {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+.headerrow1 > div > div:last-child {
+  border-left: 1px solid #e2eaf0;
+}
+
+.headerrow1 > div > div:last-child img {
+  vertical-align: middle;
+}
+
+.logo > div:first-child {
+  text-align: right;
+  padding: 0.5rem 3rem 0.5rem 1rem;
+}
+.logo > div:last-child {
+  padding: 0.5rem 3rem;
+}
+
+.logo > div:last-child img {
+  height: 1.2rem;
+  margin-right: 0.4rem;
+}
+
+.exit {
+  display: flex;
+  align-items: stretch;
+  padding: 0.9rem 0;
+}
+
+.exit > div {
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.exit div select {
+  padding: 0.3rem 1.5rem;
+  border-radius: 0.25rem;
+  color: #202a34;
+  border-color: #202a34;
+}
+
+.exit div img {
+  margin-right: 0.5rem;
+}
+
+/* Header Row 2 */
+
+.leftbuttons {
+  align-items: stretch;
+  width: 14.5rem;
+  font-size: 0.9rem;
+}
+
+.leftbuttons div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.leftbuttons div:first-child {
+  background-color: #5f6dc8;
+  color: #f4f7f9;
+  font-weight: bold;
+}
+
+.leftbuttons div:last-child {
+  color: #5f6dc8;
+}
+
+.centerbuttons {
+  width: 16.5rem;
+  align-items: center;
+}
+
+.centerbuttons div {
+  text-align: center;
+  flex: 1;
+  padding: 0.5rem 0.4rem;
+  border-radius: 0.25rem;
+  margin: 0 0.5rem;
+}
+
+.centerbuttons div:first-child {
+  border: 1px solid #5f6dc8;
+  background-color: #5f6dc8;
+  color: white;
+  font-weight: bold;
+}
+
+.centerbuttons div:last-child {
+  border: 1px solid #202a34;
+}
+
+.rightbuttons {
+  align-items: center;
+}
+
+.undoredo,
+.undoredo > div,
+.delete {
+  display: flex;
+  align-items: center;
+}
+
+.undoredo {
+  height: 100%;
+  align-items: stretch;
+  padding: 0 1.5rem;
+}
+
+.undoredo > div:first-child {
+  margin-right: 1rem;
+}
+
+.undoredo > div:last-child {
+  color: #c3cfd8;
+}
+
+.delete > div:first-child,
+.undoredo > div > div:first-child {
+  margin-right: 0.2rem;
+}
+
+.delete {
+  border-left: 1px solid #e2eaf0;
+  padding: 0.5rem 1.5rem;
+}

@@ -1,0 +1,26 @@
+.preview-screen-container {
+  width: calc(100vw - 14.5rem);
+  height: 100%;
+  min-height: 30rem;
+  background-color: #e4e4e4;
+}
+
+.preview-screen {
+  background-color: #939393;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.width-pad {
+  width: 52rem;
+}
+
+.width-phone {
+  width: 32rem;
+}
+
+.width-desktop {
+}

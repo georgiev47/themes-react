@@ -1,13 +1,93 @@
 body {
+  box-sizing: border-box;
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: sans-serif;
+  color: #202a34;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+main {
+  height: calc(100vh - 8rem);
+  display: flex;
+}
+
+.theme-menu-container {
+  width: 14.5rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.preview-devices {
+  display: flex;
+  min-height: 3rem;
+  align-items: stretch;
+  border-bottom: 1px solid #cccccc;
+  padding: 0 1.5rem;
+}
+
+.preview-devices div {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.preview-devices .selected {
+  filter: invert(45%) sepia(23%) saturate(1310%) hue-rotate(195deg)
+    brightness(92%) contrast(90%);
+}
+
+.main-menu {
+  padding-top: 1rem;
+}
+
+.main-menu > div {
+  padding: 0.9rem 0 0.9rem 2rem;
+  font-weight: bold;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.main-menu > div > img {
+  vertical-align: middle;
+  margin-right: 1.3rem;
+}
+
+.theme {
+  position: relative;
+}
+
+.next-form {
+  height: 2.5rem;
+  background-color: #5f6dc8;
+  margin-top: auto;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9rem;
+  position: relative;
+}
+
+.next-form img {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+}
+
+.card-selected {
+  margin: 0;
+  position: absolute;
+  top: -0.5rem;
+  left: calc(50% - 2.4rem);
+  background-color: #0024a8;
+  color: #f8f8f8;
+  padding: 0.2rem 1rem;
+  border-radius: 0.25rem;
+}
+
+.card-not-selected {
+  display: none;
 }

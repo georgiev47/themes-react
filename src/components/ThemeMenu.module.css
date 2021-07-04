@@ -1,0 +1,26 @@
+.theme-menu {
+  position: absolute;
+  left: 100%;
+  top: 0;
+  background-color: #f8f8f8;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 1rem 0;
+  width: 21rem;
+  cursor: default;
+}
+
+.theme-menu > div {
+  margin: 0.5rem 0;
+  font-size: 0.75rem;
+  font-weight: normal;
+  color: #838383;
+  cursor: pointer;
+  position: relative;
+}
+
+.theme-menu div span {
+  font-weight: bold;
+  color: #5f6dc8;
+}
